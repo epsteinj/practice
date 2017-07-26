@@ -1,0 +1,8 @@
+public class sortIt {
+    List <String> myList = new Arrays.asList("c","d","e","f","g");
+    myList
+        .stream()
+        .Collections.sort(myList, (String a, String b) -> b.compareTo(a));
+        .sorted()
+        .forEach(System.out.println());
+}
